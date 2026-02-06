@@ -1,26 +1,3 @@
-// import { View, Text, FlatList } from "react-native";
-// import { useContext } from "react";
-
-// import { ProductContext } from "../../context/ProductContext";
-
-
-// export default function ProductList() {
-//   const { products } = useContext(ProductContext);
-
-//   return (
-//     <FlatList
-//       data={products}
-//       keyExtractor={(item) => item.id.toString()}
-//       ListEmptyComponent={<Text>No products yet</Text>}
-//       renderItem={({ item }) => (
-//         <View style={{ padding: 10, borderBottomWidth: 1 }}>
-//           <Text>{item.name}</Text>
-//           <Text>₹ {item.price}</Text>
-//         </View>
-//       )}
-//     />
-//   );
-// }
 
 import {
   View,
